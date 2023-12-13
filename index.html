@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  </head>
+  <body>
+    <div class="background-photo">
+      <header>
+        <div class="logo-map-info">
+          <img src="/img/header/logo.svg" alt="Логотип сайта" class="logo" />
+          <div class="map">
+            <a><img src="/img/header/yandex.svg" alt="Яндекс карты" /> </a>
+          </div>
+        </div>
+
+        <div class="contact-info">
+          <div class="address-contact-info">
+            Производство кухонь на заказ
+            <address>Анапа, ул. Крылова, д. 27</address>
+          </div>
+          <div class="contact">
+            <div class="messenger">
+              <a href="#" target="_blank" class="whatsapp">
+                <img src="/img/header/whatsapp.svg" alt="whatsapp" />
+              </a>
+              <a href="#" target="_blank" class="telegram">
+                <img src="/img/header/telegram.svg" alt="telegram" />
+              </a>
+            </div>
+            <a href="tel:+79883117788" class="phone">+7 (988)-311-77-88</a>
+            <button>Заказать звонок</button>
+          </div>
+        </div>
+      </header>
+      <section class="promo">
+        <div class="promo-description appliances">
+          <p>
+            Огромный выбор<br />
+            бытовой техники <img src="/img/promo/knopka.svg" />
+          </p>
+        </div>
+        <div class="promo-description headset">
+          <p>
+            Изысканный гарнитур<br />любого размера
+            <img src="/img/promo/knopka.svg" />
+          </p>
+        </div>
+        <div class="promo-description tree">
+          <p>
+            Выдающиеся<br />сорта древесины <img src="/img/promo/knopka.svg" />
+          </p>
+        </div>
+        <h1 class=" animate__animated animate__backInRight">
+          Изготовим роскошную<br />
+          дизайнерскую кухню
+        </h1>
+        <div class="promo-advertising">
+          <!-- <img id="wallet" src="/img/promo/wallet.svg" alt="иконка кошелька" /> -->
+          <object
+          id="wallet"
+              type="image/svg+xml"
+              data="/img/promo/wallet.svg"
+            ></object>
+          <p><span>Цена на 12-24% ниже,</span><br />чем у посредников</p>
+        </div>
+        <div class="promo-calculation">
+          <div>
+            <p>Рассчитаем стоимость кухни-мечты</p>
+            <button>Заказать расчёт</button>
+          </div>
+          <img src="/img/promo/arrow.svg" />
+        </div>
+        <div class="rectangle">
+          <img src="/img/promo/Rectangle.svg" />
+        </div>
+        <div class="advantages">
+          <div>
+            <p>Огромный выбор бытовой техники</p>
+            <p>Изысканный гарнитур любого размера</p>
+            <p>Выдающиеся сорта древесины</p>
+          </div>
+          <img src="/img/promo/knopka.svg" />
+        </div>
+      </section>
+    </div>
+    <section class="advantages-section">
+      <div class="title-advantages-section">
+        <h2>Наши преимущества</h2>
+        <div class="line"></div>
+      </div>
+      <ul class="advantages-list">
+        <li>
+          <img src="/img/advantages/kitchen.svg" alt="иконка" />
+          <p>
+            <span> C 2000 г на рынке</span> <br />
+            наши кухни выбрали<br class="br-none" />
+            10 000+ семей
+          </p>
+        </li>
+        <li>
+          <img src="/img/advantages/clock.svg" alt="иконка" />
+          <p>
+            <span> Сжатые сроки</span> <br />
+            изготовление кухни<br class="br-none" />
+            от 20 дней
+          </p>
+        </li>
+        <li>
+          <img src="/img/advantages/design.svg" alt="иконка" />
+          <p>
+            <span> Дизайн проект</span><br />
+            бесплатно за 30 минут
+          </p>
+        </li>
+      </ul>
+      <img
+        src="/img/advantages/kitchen.png"
+        alt="фото кухни"
+        class="img-advantages"
+      />
+    </section>
+    <section class="portfolio">
+        <div class="rectangle-portfolio"></div>
+      <div class="portfolio-title">
+        <div class="portfolio-line"></div>
+        <h2>Посмотрите наши работы</h2>
+      </div>
+      <ul class="button-menu">
+        <div class="filter">
+          <li>
+            <button class="filter-button" id="layout">
+              <p id="layout">планировка</p>
+              <div id="layout"></div>
+            </button>
+            <ul class="checkbox-layout checkbox-none checkboxes">
+              <li>
+                <div>
+                  <label for="straight">
+                    <input type="checkbox" id="straight" />
+                    <span id="straight" class="checkbox-layout"></span>
+                    Прямые</label
+                  >
+                </div>
+              </li>
+              <li>
+                <div>
+                  <label for="corner">
+                    <input type="checkbox" id="corner" />
+
+                    <span id="corner" class="checkbox-layout"></span>
+                    Угловые</label
+                  >
+                </div>
+              </li>
+              <li>
+                <div>
+                  <label for="island">
+                    <input type="checkbox" id="island" />
+
+                    <span id="island" class="checkbox-layout"></span>
+                    С островом</label
+                  >
+                </div>
+              </li>
+              <li>
+                <div>
+                  <label for="three">
+                    <input type="checkbox" id="three" />
+
+                    <span id="three" class="checkbox-layout"></span>
+                    Трёхъярусные</label
+                  >
+                </div>
+              </li>
+              <li>
+                <div>
+                  <label for="P">
+                    <input type="checkbox" id="P" />
+
+                    <span id="P" class="checkbox-layout"></span>
+                    П-образные</label
+                  >
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <button class="filter-button" id="style-kitchen">
+              <p id="style-kitchen">Стиль кухни</p>
+              <div id="style-kitchen"></div>
+            </button>
+            <ul class="checkbox-style-kitchen checkbox-none checkboxes">
+              <li>
+                <div>
+                  <label for="carved">
+                    <input type="checkbox" id="carved" />
+                    <span id="carved" class="checkbox-style-kitchen"></span>
+                    Резные</label
+                  >
+                </div>
+              </li>
+              <li>
+                <div>
+                  <label for="bright">
+                    <input type="checkbox" id="bright" />
+
+                    <span id="bright" class="checkbox-style-kitchen"></span>
+                    Яркие</label
+                  >
+                </div>
+              </li>
+              <li>
+                <div>
+                  <label for="mini">
+                    <input type="checkbox" id="mini" />
+
+                    <span id="mini" class="checkbox-style-kitchen"></span>
+                    Минимализм</label
+                  >
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <button class="filter-button" id="color">
+              <p id="color">Цвет</p>
+              <div id="color"></div>
+            </button>
+            <ul class="checkbox-color checkbox-none checkboxes">
+              <li>
+                <div>
+                  <label for="light">
+                    <input type="checkbox" id="light" />
+                    <span id="light" class="checkbox-color"></span>
+                    Светлыe</label
+                  >
+                </div>
+              </li>
+              <li>
+                <div>
+                  <label for="dark">
+                    <input type="checkbox" id="dark" />
+
+                    <span id="dark" class="checkbox-color"></span>
+                    Темные</label
+                  >
+                </div>
+              </li>
+            </ul>
+          </li>
+        </div>
+
+        <div class="users-button">
+          <li>
+            <button class="apply">Применить</button>
+          </li>
+          <li>
+            <button class="reset">Сбросить</button>
+          </li>
+        </div>
+      </ul>
+      <ul class="catalogs">
+        <li class="catalog-list">
+          <div class="catalog-wrapper">
+            <div class="catalog-list-img">
+              <img src="/img/catalog/photo.png" class="active-photo" alt="" />
+              <div class="slider">
+              
+                 
+                  <div class="left-part">
+                  <div class="pagination">
+                    <p class="static">03</p>
+                    <p class="countSlider">10</p>
+                  </div>
+                  <div class="buttons">
+                    <button class="left one-btn-l"></button>
+                    <button class="right one-btn-r"></button>
+                  </div>
+                </div>
+                 
+                <ul class="slider-photos swiper one">
+                  <li class="slider_line swiper-wrapper" >
+                    <a href="/img/catalog/photo.png" class="swiper-slide" >
+                      <img
+                        src="/img/catalog/photo.png"
+                        width="61"
+                        height="54"
+                        alt=""
+                        class="slider_img slider-active "
+                      />
+                    </a>
+                    <a href="/img/catalog/photo2.png" class="swiper-slide">
+                        <img
+                          src="/img/catalog/photo2.png"
+                          width="61"
+                          height="54"
+                          alt=""
+                          class="slider_img"
+                        />
+                      </a>
+                      <a href="/img/catalog/photo3.png" class="swiper-slide">
+                        <img
+                          src="/img/catalog/photo3.png"
+                          width="61"
+                          height="54"
+                          alt=""
+                          class="slider_img "
+                        />
+                      </a>
+                      <a href="/img/catalog/photo4.png" class="swiper-slide">
+                        <img
+                          src="/img/catalog/photo4.png"
+                          width="61"
+                          height="54"
+                          alt=""
+                          class="slider_img "
+                        />
+                      </a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+
+            <div class="catalog-list-description">
+              <div class="content">
+                <div class="title-list">
+                  <h3>Кухня 097 минимализм</h3>
+                  <p>Угловая белая кухня со столешницей под бетон.</p>
+                </div>
+                <ul class="cost-calog">
+                  <li>
+                    <h4>Эконом</h4>
+                    <p>168 000 р.</p>
+                  </li>
+                  <li>
+                    <h4>Стандарт</h4>
+                    <p>217 000 р.</p>
+                  </li>
+                  <li>
+                    <h4>Премиум</h4>
+                    <p>270 000 р.</p>
+                  </li>
+                </ul>
+
+                <p class="length-kitchen">Длина кухни:<span> 4900 мм</span></p>
+
+                <div class="catalog-buttons">
+                  <button class="more">
+                    <a>Подробнее</a>
+                  </button>
+                  <button class="button-calc">
+                    <a>Расчет стоимости</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="catalog-list">
+            <div class="catalog-wrapper">
+              <div class="catalog-list-img">
+                <img src="/img/catalog/photo.png" class="active-photo" alt="" />
+                <div class="slider">
+                
+                   
+                    <div class="left-part">
+                    <div class="pagination">
+                      <p class="static">03</p>
+                      <p class="countSlider">10</p>
+                    </div>
+                    <div class="buttons">
+                      <button class="left two-btn-l"></button>
+                      <button class="right two-btn-r"></button>
+                    </div>
+                  </div>
+                   
+                  <ul class="slider-photos swiper two">
+                    <li class="slider_line swiper-wrapper" >
+                      <a href="/img/catalog/photo.png" class="swiper-slide" >
+                        <img
+                          src="/img/catalog/photo.png"
+                          width="61"
+                          height="54"
+                          alt=""
+                          class="slider_img slider-active "
+                        />
+                      </a>
+                      <a href="/img/catalog/photo2.png" class="swiper-slide">
+                          <img
+                            src="/img/catalog/photo2.png"
+                            width="61"
+                            height="54"
+                            alt=""
+                            class="slider_img"
+                          />
+                        </a>
+                        <a href="/img/catalog/photo3.png" class="swiper-slide">
+                          <img
+                            src="/img/catalog/photo3.png"
+                            width="61"
+                            height="54"
+                            alt=""
+                            class="slider_img "
+                          />
+                        </a>
+                        <a href="/img/catalog/photo4.png" class="swiper-slide">
+                          <img
+                            src="/img/catalog/photo4.png"
+                            width="61"
+                            height="54"
+                            alt=""
+                            class="slider_img "
+                          />
+                        </a>
+                    </li>
+                   
+                  </ul>
+                </div>
+              </div>
+  
+              <div class="catalog-list-description">
+                <div class="content">
+                  <div class="title-list">
+                    <h3>Кухня 097 минимализм</h3>
+                    <p>Угловая белая кухня со столешницей под бетон.</p>
+                  </div>
+                  <ul class="cost-calog">
+                    <li>
+                      <h4>Эконом</h4>
+                      <p>168 000 р.</p>
+                    </li>
+                    <li>
+                      <h4>Стандарт</h4>
+                      <p>217 000 р.</p>
+                    </li>
+                    <li>
+                      <h4>Премиум</h4>
+                      <p>270 000 р.</p>
+                    </li>
+                  </ul>
+  
+                  <p class="length-kitchen">Длина кухни:<span> 4900 мм</span></p>
+  
+                  <div class="catalog-buttons">
+                    <button class="more">
+                      <a>Подробнее</a>
+                    </button>
+                    <button class="button-calc">
+                      <a>Расчет стоимости</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog-list">
+            <div class="catalog-wrapper">
+              <div class="catalog-list-img">
+                <img src="/img/catalog/photo.png" class="active-photo" alt="" />
+                <div class="slider">
+                
+                   
+                    <div class="left-part">
+                    <div class="pagination">
+                      <p class="static">03</p>
+                      <p class="countSlider">10</p>
+                    </div>
+                    <div class="buttons">
+                      <button class="left three-btn-l"></button>
+                      <button class="right three-btn-r"></button>
+                    </div>
+                  </div>
+                   
+                  <ul class="slider-photos swiper three">
+                    <li class="slider_line swiper-wrapper" >
+                      <a href="/img/catalog/photo.png" class="swiper-slide" >
+                        <img
+                          src="/img/catalog/photo.png"
+                          width="61"
+                          height="54"
+                          alt=""
+                          class="slider_img slider-active "
+                        />
+                      </a>
+                      <a href="/img/catalog/photo2.png" class="swiper-slide">
+                          <img
+                            src="/img/catalog/photo2.png"
+                            width="61"
+                            height="54"
+                            alt=""
+                            class="slider_img"
+                          />
+                        </a>
+                        <a href="/img/catalog/photo3.png" class="swiper-slide">
+                          <img
+                            src="/img/catalog/photo3.png"
+                            width="61"
+                            height="54"
+                            alt=""
+                            class="slider_img "
+                          />
+                        </a>
+                        <a href="/img/catalog/photo4.png" class="swiper-slide">
+                          <img
+                            src="/img/catalog/photo4.png"
+                            width="61"
+                            height="54"
+                            alt=""
+                            class="slider_img "
+                          />
+                        </a>
+                    </li>
+                   
+                  </ul>
+                </div>
+              </div>
+  
+              <div class="catalog-list-description">
+                <div class="content">
+                  <div class="title-list">
+                    <h3>Кухня 097 минимализм</h3>
+                    <p>Угловая белая кухня со столешницей под бетон.</p>
+                  </div>
+                  <ul class="cost-calog">
+                    <li>
+                      <h4>Эконом</h4>
+                      <p>168 000 р.</p>
+                    </li>
+                    <li>
+                      <h4>Стандарт</h4>
+                      <p>217 000 р.</p>
+                    </li>
+                    <li>
+                      <h4>Премиум</h4>
+                      <p>270 000 р.</p>
+                    </li>
+                  </ul>
+  
+                  <p class="length-kitchen">Длина кухни:<span> 4900 мм</span></p>
+  
+                  <div class="catalog-buttons">
+                    <button class="more">
+                      <a>Подробнее</a>
+                    </button>
+                    <button class="button-calc">
+                      <a>Расчет стоимости</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="catalog-list">
+            <div class="catalog-wrapper">
+              <div class="catalog-list-img">
+                <img src="/img/catalog/photo.png" class="active-photo" alt="" />
+                <div class="slider">
+                
+                   
+                    <div class="left-part">
+                    <div class="pagination">
+                      <p class="static">03</p>
+                      <p class="countSlider">10</p>
+                    </div>
+                    <div class="buttons">
+                      <button class="left four-btn-l"></button>
+                      <button class="right four-btn-r"></button>
+                    </div>
+                  </div>
+                   
+                  <ul class="slider-photos swiper four">
+                    <li class="slider_line swiper-wrapper" >
+                      <a href="/img/catalog/photo.png" class="swiper-slide" >
+                        <img
+                          src="/img/catalog/photo.png"
+                          width="61"
+                          height="54"
+                          alt=""
+                          class="slider_img slider-active "
+                        />
+                      </a>
+                      <a href="/img/catalog/photo2.png" class="swiper-slide">
+                          <img
+                            src="/img/catalog/photo2.png"
+                            width="61"
+                            height="54"
+                            alt=""
+                            class="slider_img"
+                          />
+                        </a>
+                        <a href="/img/catalog/photo3.png" class="swiper-slide">
+                          <img
+                            src="/img/catalog/photo3.png"
+                            width="61"
+                            height="54"
+                            alt=""
+                            class="slider_img "
+                          />
+                        </a>
+                        <a href="/img/catalog/photo4.png" class="swiper-slide">
+                          <img
+                            src="/img/catalog/photo4.png"
+                            width="61"
+                            height="54"
+                            alt=""
+                            class="slider_img "
+                          />
+                        </a>
+                    </li>
+                   
+                  </ul>
+                </div>
+              </div>
+  
+              <div class="catalog-list-description">
+                <div class="content">
+                  <div class="title-list">
+                    <h3>Кухня 097 минимализм</h3>
+                    <p>Угловая белая кухня со столешницей под бетон.</p>
+                  </div>
+                  <ul class="cost-calog">
+                    <li>
+                      <h4>Эконом</h4>
+                      <p>168 000 р.</p>
+                    </li>
+                    <li>
+                      <h4>Стандарт</h4>
+                      <p>217 000 р.</p>
+                    </li>
+                    <li>
+                      <h4>Премиум</h4>
+                      <p>270 000 р.</p>
+                    </li>
+                  </ul>
+  
+                  <p class="length-kitchen">Длина кухни:<span> 4900 мм</span></p>
+  
+                  <div class="catalog-buttons">
+                    <button class="more">
+                      <a>Подробнее</a>
+                    </button>
+                    <button class="button-calc">
+                      <a>Расчет стоимости</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+      </ul>
+    </section>
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script>
+        var swiper = new Swiper(".one", {
+          pagination: {
+            type: "fraction",
+          },
+       
+          navigation: {
+            nextEl:".one-btn-r" ,
+            prevEl:".one-btn-l" ,
+          },
+          slidesPerView: 3, 
+        });
+        var swiper = new Swiper(".two", {
+          pagination: {
+            type: "fraction",
+          },
+       
+          navigation: {
+            nextEl:".two-btn-r" ,
+            prevEl:".two-btn-l" ,
+          },
+          slidesPerView: 3, 
+        });
+        var swiper = new Swiper(".three", {
+          pagination: {
+            type: "fraction",
+          },
+       
+          navigation: {
+            nextEl:".three-btn-r" ,
+            prevEl:".three-btn-l" ,
+          },
+          slidesPerView: 3, 
+        });
+        var swiper = new Swiper(".four", {
+          pagination: {
+            type: "fraction",
+          },
+       
+          navigation: {
+            nextEl:".four-btn-r" ,
+            prevEl:".four-btn-l" ,
+          },
+          slidesPerView: 3, 
+        });
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/vivus@0.4.6/dist/vivus.min.js"></script>
+      <script>
+        const walletSvg = new Vivus('wallet', {
+    duration: 800,
+});
+      </script>
+  </body>
+</html>

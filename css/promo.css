@@ -1,0 +1,399 @@
+.promo {
+  position: relative;
+}
+.promo .rectangle {
+  position: absolute;
+  top: 225px;
+}
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1200px) {
+  .promo .rectangle {
+    top: 136px;
+    left: -37px;
+  }
+}
+@media only screen and (min-device-width: 700px) and (max-device-width: 1000px) {
+  .promo .rectangle {
+    top: 77px;
+    left: -88px;
+  }
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 700px) {
+  .promo .rectangle {
+    top: 55px;
+    left: -88px;
+  }
+}
+@media only screen and (max-device-width: 500px) {
+  .promo .rectangle {
+    top: 50px;
+    left: -110px;
+  }
+}
+.promo h1 {
+  margin: 0;
+  font-family: "Lora", serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 82px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding-top: 163px;
+  padding-left: 150px;
+}
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1200px) {
+  .promo h1 {
+    padding-top: 70px;
+    padding-left: 90px;
+  }
+}
+@media only screen and (min-device-width: 700px) and (max-device-width: 1000px) {
+  .promo h1 {
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 700px) {
+  .promo h1 {
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+@media only screen and (max-device-width: 500px) {
+  .promo h1 {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 35px;
+    line-height: 45px;
+    margin-right: 20px;
+  }
+}
+.promo .promo-advertising {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 150px;
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+}
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1200px) {
+  .promo .promo-advertising {
+    padding-left: 90px;
+  }
+}
+@media only screen and (min-device-width: 700px) and (max-device-width: 1000px) {
+  .promo .promo-advertising {
+    margin-top: 20px;
+    padding-left: 40px;
+  }
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 700px) {
+  .promo .promo-advertising {
+    margin-top: 30px;
+    padding-left: 30px;
+  }
+}
+@media only screen and (max-device-width: 500px) {
+  .promo .promo-advertising {
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+}
+.promo .promo-advertising object {
+  margin-right: 31px;
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 700px) {
+  .promo .promo-advertising object {
+    width: 40px;
+    margin-right: 15px;
+  }
+}
+@media only screen and (max-device-width: 500px) {
+  .promo .promo-advertising object {
+    width: 30px;
+    margin-right: 10px;
+  }
+}
+.promo .promo-advertising p {
+  margin: 0;
+  text-align: left;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0em;
+  font-weight: 400;
+}
+@media only screen and (min-device-width: 700px) and (max-device-width: 1000px) {
+  .promo .promo-advertising p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 700px) {
+  .promo .promo-advertising p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media only screen and (max-device-width: 500px) {
+  .promo .promo-advertising p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+.promo .promo-advertising p span {
+  font-weight: 700;
+}
+
+.promo-calculation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding-left: 150px;
+  margin-top: 56px;
+  padding-bottom: 138px;
+}
+@media only screen and (min-device-width: 2000px) {
+  .promo-calculation {
+    padding-bottom: 190px;
+  }
+}
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1200px) {
+  .promo-calculation {
+    padding-left: 90px;
+  }
+}
+@media only screen and (min-device-width: 700px) and (max-device-width: 1000px) {
+  .promo-calculation {
+    line-height: 12px;
+    padding-left: 40px;
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 700px) {
+  .promo-calculation {
+    line-height: 10px;
+    padding-left: 30px;
+    margin-top: 40px;
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (max-device-width: 500px) {
+  .promo-calculation {
+    line-height: 10px;
+    padding-left: 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.promo-calculation p {
+  margin: 0;
+  margin-bottom: 15px;
+}
+.promo-calculation button {
+  padding: 18px 32px;
+  border: 0.84px solid rgb(255, 255, 255);
+  background: none;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 700px) {
+  .promo-calculation button {
+    padding: 12px 17px;
+  }
+}
+@media only screen and (max-device-width: 500px) {
+  .promo-calculation button {
+    padding: 8px 12px;
+  }
+}
+.promo-calculation img {
+  position: relative;
+  top: -6px;
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 700px) {
+  .promo-calculation img {
+    top: 0;
+  }
+}
+@media only screen and (max-device-width: 500px) {
+  .promo-calculation img {
+    top: 5px;
+  }
+}
+
+.promo-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 1200px) {
+  .promo-description {
+    display: none;
+  }
+}
+.promo-description p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 18px 32px;
+  border-radius: 15px;
+  background: rgba(0, 43, 69, 0.9);
+  position: relative;
+}
+.promo-description img {
+  position: absolute;
+  right: -15px;
+  top: 30px;
+}
+
+.promo-description.appliances {
+  top: 9%;
+  left: 26%;
+}
+@media only screen and (min-device-width: 1600px) and (max-device-width: 1700px) {
+  .promo-description.appliances {
+    left: 27%;
+  }
+}
+@media only screen and (min-device-width: 1500px) and (max-device-width: 1600px) {
+  .promo-description.appliances {
+    left: 25%;
+  }
+}
+@media only screen and (min-device-width: 1400px) and (max-device-width: 1500px) {
+  .promo-description.appliances {
+    left: 23%;
+  }
+}
+@media only screen and (min-device-width: 1300px) and (max-device-width: 1400px) {
+  .promo-description.appliances {
+    left: 20%;
+  }
+}
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1300px) {
+  .promo-description.appliances {
+    left: 17%;
+  }
+}
+
+.promo-description.headset {
+  top: 21%;
+  left: 51%;
+}
+@media only screen and (min-device-width: 1600px) and (max-device-width: 1700px) {
+  .promo-description.headset {
+    left: 55%;
+  }
+}
+@media only screen and (min-device-width: 1500px) and (max-device-width: 1600px) {
+  .promo-description.headset {
+    left: 58%;
+  }
+}
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1500px) {
+  .promo-description.headset {
+    left: 62%;
+    top: 9%;
+  }
+}
+
+.promo-description.tree {
+  top: 50%;
+  left: 47%;
+}
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1400px) {
+  .promo-description.tree {
+    left: 46%;
+    top: 55%;
+  }
+}
+
+@media only screen and (min-device-width: 1200px) {
+  .advantages {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 1200px) {
+  .advantages {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 18px 32px;
+    border-radius: 15px;
+    background: rgba(0, 43, 69, 0.9);
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    right: 50px;
+    bottom: 40px;
+  }
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 1200px) and (min-device-width: 100px) and (max-device-width: 1000px) {
+  .advantages {
+    font-size: 14px;
+    padding: 15px 20px;
+    right: 20px;
+  }
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 1200px) and (max-device-width: 700px) {
+  .advantages {
+    position: static;
+    width: auto;
+    border-radius: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .advantages div {
+    text-align: center;
+  }
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 1200px) {
+  .advantages p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .advantages p :last-child {
+    margin-bottom: 0;
+  }
+  .advantages img {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 1200px) and (max-device-width: 700px) {
+  .advantages img {
+    display: none;
+  }
+}

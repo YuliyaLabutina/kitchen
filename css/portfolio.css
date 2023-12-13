@@ -1,0 +1,749 @@
+@charset "UTF-8";
+.portfolio {
+  padding-top: 158px;
+  position: relative;
+}
+@media only screen and (max-device-width: 1000px) {
+  .portfolio {
+    padding-top: 80px;
+  }
+}
+.portfolio .rectangle-portfolio {
+  position: absolute;
+  background-image: url(/img/catalog/Rectangle\ 4532.svg);
+  background-repeat: no-repeat;
+  width: 660px;
+  height: 415px;
+  right: 0;
+}
+@media only screen and (max-device-width: 800px) {
+  .portfolio .rectangle-portfolio {
+    display: none;
+  }
+}
+.portfolio .portfolio-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+@media only screen and (max-device-width: 800px) {
+  .portfolio .portfolio-title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+.portfolio .portfolio-title .portfolio-line {
+  width: 120px;
+  height: 1px;
+  background-color: rgb(0, 43, 69);
+  position: absolute;
+  left: 0;
+}
+@media only screen and (max-device-width: 800px) {
+  .portfolio .portfolio-title .portfolio-line {
+    display: none;
+  }
+}
+.portfolio h2 {
+  font-family: "Lora", serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  margin-left: 150px;
+}
+@media only screen and (max-device-width: 800px) {
+  .portfolio h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+  }
+}
+.portfolio .button-menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 45px;
+  padding-left: 150px;
+  position: relative;
+  z-index: 3;
+}
+@media only screen and (min-device-width: 1020px) and (max-device-width: 1200px) {
+  .portfolio .button-menu {
+    padding-left: 50px;
+    padding-right: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 1020px) {
+  .portfolio .button-menu {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media only screen and (max-device-width: 800px) {
+  .portfolio .button-menu {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+  }
+}
+.portfolio .button-menu .filter {
+  margin-right: 53px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 11px;
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 1200px) {
+  .portfolio .button-menu .filter {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media only screen and (max-device-width: 800px) {
+  .portfolio .button-menu .filter {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media only screen and (max-device-width: 450px) {
+  .portfolio .button-menu .filter {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+.portfolio .button-menu .filter li {
+  position: relative;
+}
+.portfolio .button-menu .filter li button {
+  padding: 18px 32px;
+  border: 1px solid rgb(0, 43, 69);
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgb(0, 43, 69);
+  cursor: pointer;
+}
+@media only screen and (max-device-width: 800px) {
+  .portfolio .button-menu .filter li button {
+    padding: 8px 14px;
+  }
+}
+.portfolio .button-menu .filter li button p {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  margin-right: 10px;
+}
+@media only screen and (max-device-width: 800px) {
+  .portfolio .button-menu .filter li button p {
+    font-size: 14px;
+  }
+}
+.portfolio .button-menu .filter li button div {
+  background-image: url(/img/portfolio/Polygon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 18px;
+  height: 8px;
+}
+.portfolio .button-menu .filter li button.active {
+  background: rgb(0, 43, 69);
+  color: rgb(251, 246, 239);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.portfolio .button-menu .filter li button.active div {
+  background-image: url(/img/portfolio/PolygonUp.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.portfolio .users-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 11px;
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 1200px) {
+  .portfolio .users-button {
+    margin-bottom: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+@media only screen and (max-device-width: 800px) {
+  .portfolio .users-button {
+    margin-bottom: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.portfolio .users-button .apply {
+  border: none;
+  padding: 18px 32px;
+  background-color: rgb(225, 225, 225);
+  color: rgb(0, 43, 69);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media only screen and (max-device-width: 800px) {
+  .portfolio .users-button .apply {
+    padding: 8px 14px;
+  }
+}
+.portfolio .users-button .apply:hover {
+  background-color: rgb(251, 246, 239);
+  border: 1px solid rgb(0, 0, 0);
+}
+.portfolio .users-button .reset {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 18px 32px;
+  background: white;
+  color: rgb(0, 43, 69);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media only screen and (max-device-width: 800px) {
+  .portfolio .users-button .reset {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+}
+.portfolio .users-button .reset:hover {
+  color: rgb(251, 246, 239);
+  background: rgb(0, 43, 69);
+}
+
+.checkbox-none {
+  display: none;
+}
+
+.checkboxes {
+  position: absolute;
+  z-index: 2;
+  background: rgb(255, 255, 255);
+  width: 90%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 21px;
+  padding-bottom: 18px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 43, 69, 0.2);
+          box-shadow: 0px 0px 10px rgba(0, 43, 69, 0.2);
+  margin-top: 19px;
+}
+.checkboxes li {
+  color: rgb(0, 43, 69);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 15px;
+}
+@media only screen and (max-device-width: 800px) {
+  .checkboxes li {
+    font-size: 14px;
+    margin-bottom: 7px;
+  }
+}
+.checkboxes li div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.checkboxes li input {
+  display: none;
+}
+.checkboxes li span {
+  height: 14px;
+  width: 14px;
+  border: 0.7px solid rgb(0, 43, 69);
+  display: inline-block;
+  position: relative;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 0;
+  margin: 0;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.checkboxes li:last-child {
+  margin-bottom: 0;
+}
+
+.checkbox-layout [type=checkbox]:checked + .checkbox-layout:before {
+  content: "✔";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  font-size: 20px;
+  color: rgb(0, 43, 69);
+}
+
+.checkbox-style-kitchen [type=checkbox]:checked + .checkbox-style-kitchen:before {
+  content: "✔";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  font-size: 20px;
+  color: rgb(0, 43, 69);
+}
+
+.checkbox-color [type=checkbox]:checked + .checkbox-color:before {
+  content: "✔";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  font-size: 20px;
+  color: rgb(0, 43, 69);
+}
+
+.catalogs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 48px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 1920px) {
+  .catalogs {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+@media only screen and (min-device-width: 1020px) and (max-device-width: 800px) {
+  .catalogs {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 800px) {
+  .catalogs {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media only screen and (max-device-width: 800px) {
+  .catalogs {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.catalogs .catalog-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 0;
+}
+.catalogs .catalog-list .catalog-list-img {
+  position: absolute;
+  left: 0;
+  top: 58px;
+  z-index: 1;
+}
+@media only screen and (max-device-width: 800px) {
+  .catalogs .catalog-list .catalog-list-img {
+    text-align: center;
+    position: static;
+  }
+}
+.catalogs .catalog-list .catalog-list-img .slider {
+  position: absolute;
+  background-color: rgb(0, 22, 35);
+  width: 100%;
+  height: 80px;
+  bottom: 0;
+  z-index: 2 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media only screen and (max-device-width: 800px) {
+  .catalogs .catalog-list .catalog-list-img .slider {
+    position: static;
+  }
+}
+.catalogs .catalog-list .catalog-list-img .slider .slider_line a {
+  width: 61px !important;
+  margin-right: 6px !important;
+}
+.catalogs .catalog-list .catalog-list-img .slider .left-part {
+  margin-right: 14px;
+  margin-left: 21px;
+}
+.catalogs .catalog-list .catalog-list-img .slider .pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.catalogs .catalog-list .catalog-list-img .slider .pagination p {
+  margin: 0;
+}
+.catalogs .catalog-list .catalog-list-img .slider .pagination .static {
+  font-family: "Lora";
+  font-size: 20.69px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+.catalogs .catalog-list .catalog-list-img .slider .pagination .countSlider {
+  font-family: "Lora";
+  font-size: 10.34px;
+  color: #797979;
+  margin-top: auto;
+  line-height: 18.83px;
+}
+.catalogs .catalog-list .catalog-list-img .slider .slider-photos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 190px !important;
+  overflow: hidden !important;
+  margin-right: 17px;
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 1920px) {
+  .catalogs .catalog-list .catalog-list-img .slider .slider-photos img {
+    width: 80% !important;
+  }
+}
+.catalogs .catalog-list .catalog-list-img .slider .swiper-button-lock {
+  display: block !important;
+}
+.catalogs .catalog-list .catalog-list-img .slider .swiper-pagination-lock {
+  display: block !important;
+  width: 45px !important;
+}
+.catalogs .catalog-list .catalog-list-img .slider .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.catalogs .catalog-list .catalog-list-img .slider button {
+  width: 19px !important;
+  height: 7px !important;
+  border: none;
+  background: none;
+}
+.catalogs .catalog-list .catalog-list-img .slider .left {
+  background-image: url(/img/catalog/left.svg);
+  background-size: cover;
+  background-position: center;
+  margin-right: 6px;
+}
+.catalogs .catalog-list .catalog-list-img .slider .right {
+  background-image: url(/img/catalog/rightsvg.svg);
+  background-size: cover;
+  background-position: center;
+}
+.catalogs .catalog-list .catalog-wrapper {
+  width: 786px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 1920px) {
+  .catalogs .catalog-list .catalog-wrapper {
+    width: 715px;
+  }
+}
+@media only screen and (max-device-width: 800px) {
+  .catalogs .catalog-list .catalog-wrapper {
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+.catalogs .catalog-list .catalog-wrapper .wrp {
+  position: relative;
+}
+.catalogs .catalog-list .catalog-list-description {
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(251, 246, 239);
+  padding-right: 72px;
+  padding-bottom: 54px;
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 1920px) {
+  .catalogs .catalog-list .catalog-list-description {
+    padding-right: 30px;
+  }
+}
+@media only screen and (min-device-width: 600px) and (max-device-width: 800px) {
+  .catalogs .catalog-list .catalog-list-description {
+    padding-right: 42px;
+    padding-bottom: 24px;
+  }
+}
+@media only screen and (max-device-width: 800px) {
+  .catalogs .catalog-list .catalog-list-description {
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+  }
+}
+.catalogs .catalog-list .catalog-list-description .content {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-left: 138px;
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 800px) {
+  .catalogs .catalog-list .catalog-list-description .content {
+    margin-left: 50px;
+  }
+}
+@media only screen and (max-device-width: 800px) {
+  .catalogs .catalog-list .catalog-list-description .content {
+    margin-left: 0;
+    text-align: center;
+    width: auto;
+  }
+}
+.catalogs .catalog-list .catalog-list-description .title-list {
+  color: rgb(0, 43, 69);
+  margin-top: 56px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-left: auto;
+  margin-bottom: 48px;
+}
+@media only screen and (max-device-width: 800px) {
+  .catalogs .catalog-list .catalog-list-description .title-list {
+    margin: 20px 0;
+    width: auto;
+  }
+}
+.catalogs .catalog-list .catalog-list-description .title-list h3 {
+  font-family: "Lora";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  margin: 0;
+  margin-bottom: 20px;
+}
+@media only screen and (max-device-width: 800px) {
+  .catalogs .catalog-list .catalog-list-description .title-list h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
+.catalogs .catalog-list .catalog-list-description .title-list p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  margin: 0;
+}
+@media only screen and (max-device-width: 800px) {
+  .catalogs .catalog-list .catalog-list-description .title-list p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+.catalogs .cost-calog {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-bottom: 16px;
+}
+@media only screen and (max-device-width: 800px) {
+  .catalogs .cost-calog {
+    margin-left: 0;
+    width: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.catalogs .cost-calog li {
+  color: rgb(0, 43, 69);
+  padding: 0 35px;
+  border-right: 1px solid rgb(217, 217, 217);
+  border-left: 1px solid rgb(217, 217, 217);
+}
+@media only screen and (max-device-width: 800px) {
+  .catalogs .cost-calog li {
+    padding: 0 15px;
+  }
+}
+.catalogs .cost-calog li h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.catalogs .cost-calog li p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+@media only screen and (max-device-width: 800px) {
+  .catalogs .cost-calog li p {
+    font-size: 14px;
+  }
+}
+.catalogs .cost-calog li:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+.catalogs .cost-calog li:last-child {
+  padding-right: 0;
+  border-right: none;
+}
+.catalogs .length-kitchen {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: rgb(124, 124, 124);
+  margin: 0;
+  margin-bottom: 46px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media only screen and (max-device-width: 800px) {
+  .catalogs .length-kitchen {
+    margin-bottom: 30px;
+    width: auto;
+    text-align: center;
+  }
+}
+.catalogs .length-kitchen span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.catalogs .catalog-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.catalogs .catalog-buttons .more {
+  padding: 18px 32px;
+  background: rgb(0, 43, 69);
+  border: none;
+  color: rgb(251, 246, 239);
+  text-transform: uppercase;
+}
+@media only screen and (max-device-width: 800px) {
+  .catalogs .catalog-buttons .more {
+    padding: 8px 14px;
+  }
+}
+.catalogs .catalog-buttons .button-calc {
+  padding: 18px 32px;
+  background: rgb(251, 246, 239);
+  border: 1px solid rgb(0, 43, 69);
+  text-transform: uppercase;
+  color: rgb(0, 43, 69);
+}
+@media only screen and (max-device-width: 800px) {
+  .catalogs .catalog-buttons .button-calc {
+    padding: 8px 14px;
+  }
+}

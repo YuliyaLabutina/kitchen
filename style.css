@@ -1,0 +1,19 @@
+@import url(/css/header.css);
+@import url(/css/promo.css);
+@import url(/css/advantages.css);
+@import url(/css/portfolio.css);
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  cursor: pointer;
+}
+.background-photo{
+    background-image: url(/img/promo/promo.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
